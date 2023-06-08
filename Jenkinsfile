@@ -18,4 +18,5 @@ pipeline {
                           sh 'docker run -d  -e HUB_HOST=52.205.57.116  -e MODULE=transferpage.xml selenium-docker-epay'
                       }
                   }
+   }
 }

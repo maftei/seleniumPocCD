@@ -15,7 +15,7 @@ pipeline {
 
       stage('Create docker container') {
                       steps {
-                          sh 'docker run -d  -e HUB_HOST=44.203.64.191  -e MODULE=transferpage.xml selenium-docker-epay'
+                          sh 'docker run -d  -e HUB_HOST=44.203.64.191  -e MODULE=search-module.xml selenium-docker-epay'
                       }
                   }
    }
